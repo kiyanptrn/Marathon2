@@ -143,5 +143,136 @@ nav a:hover {
 }
 i.fab {
     font-size: 30px;
-    margin: auto;
+   
 }
+
+
+.contact-section {
+    display: flex;
+    background-color: #1a1a2e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 900px;
+    color: #ffffff;
+}
+
+.contact-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact-text h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-text p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.email-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.email-button:hover {
+    background-color: #555;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #1a1a2e;
+}
+
+.contact-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #1a1a2e;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    background-color: #4a4fff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #3b3bff;
+}
+.gallery-section {
+    text-align: center;
+    padding: 40px;
+    width: 80%;
+    max-width: 900px;
+}
+
+.gallery-section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
