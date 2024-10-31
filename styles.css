@@ -1,0 +1,147 @@
+
+
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Style */
+header {
+    background-color: #a98b6f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #000;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration:wavy;
+}
+
+/* Introduction Section */
+.intro {
+    background-color: #e9eee5;
+    padding: 100px 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #587183;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.project-item {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Me Section */
+.about {
+    background-color: #a98b6f;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cv-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cv-button:hover {
+    background-color: #555;
+}
+
+/* Contacts Section */
+.contacts {
+    background-color: #e9eee5;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.contacts h4 {
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+i.fab {
+    font-size: 30px;
+    margin: auto;
+}
